@@ -16,7 +16,7 @@ services:
     image: dharshinisai2006/git-practice-backend:latest
     container_name: springboot
     ports:
-      - "2027:2000"
+      - "2026:2000"
     depends_on:
       - mysqldb
     restart: on-failure
